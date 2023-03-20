@@ -18,7 +18,7 @@ const Product=sequelize.define('product',{
     type:Sequelize.STRING,
     allowNull:false
   },
-  idescription:{
+  description:{
     type:Sequelize.STRING,
     allowNull:false
   }
